@@ -35,7 +35,3 @@ This repository provides a shell script to create a Lambda layer using Docker. T
 - Make sure to include the necessary `requirements.txt` file in the directory specified by the `DIRECTORY` variable. The script will install the Python packages listed in `requirements.txt` and include them in the Lambda layer.
 
 - You may need to modify the Dockerfile or requirements.txt based on your specific requirements.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
