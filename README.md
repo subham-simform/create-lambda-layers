@@ -15,6 +15,7 @@ This repository provides a shell script to create a Lambda layer using Docker. T
 3. Set the `DIRECTORY` variable to the path where your `Dockerfile` and `requirements.txt` files are located.
 
 4. Set the `LAYER_NAME` variable to the name you want to give your layer by default, it's `layer`.
+5. Add all the required pachages in `requirements.txt` and save it.
 
 5. Save the changes.
 
