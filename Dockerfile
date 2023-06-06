@@ -1,5 +1,5 @@
 # Use the official Python runtime as the base image
-FROM python:3.8-slim-buster
+FROM python:3.10-slim-buster
 
 # Set the working directory in the container
 WORKDIR /app
@@ -16,4 +16,6 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt -t /opt/python/
 
 # Set the CMD to zip the installed packages into a layer
-CMD cd /opt && zip -r9 /app/layer.zip .
+# change the `requests-layer` to the LAYER_NAME variable as per create_layer.sh file
+
+CMD cd /opt && zip -r9 /app/requests-layer.zip .

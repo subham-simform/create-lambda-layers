@@ -1,3 +1,2 @@
 # your requirements here
 requests
-stripe
